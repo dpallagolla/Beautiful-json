@@ -13,6 +13,12 @@ you can access the page on your localhost
 
 you can try the live site [here](http://beautifuljson.appspot.com/)
 
+Images:
+
+![image1] (http://i.imgur.com/PPDatmB.png)
+
+![image2] (http://i.imgur.com/IUhAag2.png)
+
 
 
 
