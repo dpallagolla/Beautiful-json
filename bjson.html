@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- [START css] -->
+    <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/bootstrap/css/jsonFormatter.css" rel="stylesheet">
+    <link href="/bootstrap/css/jsonFormatter-darkTheme.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/bootstrap/js/jsonFormatter.js"></script>
+
+  </head>
+  <body>
+    
+      <section>         
+            <!-- <div class="exampleJavaScript">$('.jsonFormatter').jsonFormatter();</div> -->
+            <div class="exampleJson jsonFormatter">{{ jsonv }}</div>
+        </section>
+        <section>
+
+         <script type="text/javascript">
+        $(document).ready(function () {
+            $('.jsonFormatter').jsonFormatter();
+            $('.jsonFormatterCustom').jsonFormatter({ quoteKeys: false, collapsible: false, hideOriginal: false });
+        });
+    </script>
+
+  </body>
+</html>
+
